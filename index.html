@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="/img/caixa-de-pipoca.png" type="image/x-icon">
     <title>Rafa Filmes</title>
-    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+   
     <style>
         /* Estilos gerais */
         body {
@@ -50,16 +50,11 @@
         <div class="mySlides fade">
             <img src="/img/img3.jpg" style="width:100%">
         </div>
-        <!-- Adicione mais slides conforme necessário -->
     </div>
 
     <script src="script.js"></script>
 
-    <!-- Inicialização do V Libras -->
-    <script>
-        new VLibras.Widget('https://vlibras.gov.br/app');
-    </script>
-
+    
     <h3>O que é um filme de drama ? </h3>
     <p>Um filme de drama é um gênero cinematográfico que se concentra em narrativas profundas e emocionalmente
         envolventes, explorando a condição humana e as complexidades das relações interpessoais.</p>
@@ -82,6 +77,19 @@
         está ficando cada vez mais insatisfeito com sua vida medíocre. Para piorar ele está enfrentando uma terrível
         crise de insônia, até que encontra uma cura inusitada para sua falta de sono ao frequentar grupos de
         autoajuda.</p>
+
+        ... <!-- Conteúdo da página -->
+
+        <div vw class="enabled">
+          <div vw-access-button class="active"></div>
+          <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+          </div>
+        </div>
+        <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+        <script>
+          new window.VLibras.Widget('https://vlibras.gov.br/app');
+        </script>
 
 </body>
 
