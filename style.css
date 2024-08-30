@@ -1,0 +1,118 @@
+/* Reset básico para garantir que o estilo seja consistente entre os navegadores */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+/* Estilo do corpo da página */
+body {
+    font-family: Arial, sans-serif; /* Fonte padrão */
+    line-height: 1.6; /* Melhora a legibilidade do texto */
+    color: #333; /* Cor do texto */
+    background-color: #f4f4f4; /* Cor de fundo leve */
+    padding: 20px; /* Espaçamento ao redor do conteúdo */
+}
+
+/* Estilo do título principal */
+h1 {
+    text-align: center; /* Centraliza o título */
+    color: #222; /* Cor do texto do título */
+    margin-bottom: 20px; /* Espaço abaixo do título */
+}
+
+/* Estilo das imagens */
+
+
+.slideshow-container {
+    position: relative;
+    max-width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.mySlides {
+    display: none;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.fade {
+    -webkit-animation: fade 1.5s ease-in-out;
+    animation: fade 1.5s ease-in-out;
+}
+
+@-webkit-keyframes fade {
+    from { opacity: .4 }
+    to { opacity: 1 }
+}
+
+@keyframes fade {
+    from { opacity: .4 }
+    to { opacity: 1 }
+}
+
+/* Estilo dos subtítulos */
+h2 {
+    color: #555; 
+    margin-top: 20px; 
+    
+}
+
+
+h3 {
+    color: #666;
+    margin: 10px 0; 
+    margin-bottom: 30px; 
+    line-height: 1.8;
+    margin: 27px;
+    
+}
+
+
+p {
+    margin-bottom: 30px; 
+    line-height: 1.8;
+   
+    font-weight: lighter;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+h1, h2,  p {
+    padding: 0 10px; 
+    text-align: center;
+}
+/* Estilo geral para todos os botões */
+.button-container button {
+    background-color: #475e77; /* Cor de fundo do botão */
+    color: #ffffff; /* Cor do texto */
+    border: none; /* Remove a borda padrão do botão */
+    border-radius: 5px; /* Bordas arredondadas */
+    padding: 10px 20px; /* Espaçamento interno do botão */
+    font-size: 16px; /* Tamanho da fonte do texto */
+    cursor: pointer; /* Muda o cursor para uma mãozinha ao passar sobre o botão */
+    transition: background-color 0.3s, transform 0.2s; /* Transições suaves para cor e efeito de clique */
+}
+
+/* Efeito de passar o mouse sobre o botão (hover) */
+.button-container button:hover {
+    background-color: #0056b3; /* Cor de fundo ao passar o mouse */
+}
+
+/* Efeito ao clicar no botão (active) */
+.button-container button:active {
+    background-color: #004080; /* Cor de fundo ao clicar */
+    transform: scale(0.98); /* Efeito de pressionar o botão */
+}
+
+/* Efeito para desativar o botão */
+.button-container button:disabled {
+    background-color: #cccccc; /* Cor de fundo do botão desativado */
+    color: #666666; /* Cor do texto do botão desativado */
+    cursor: not-allowed; /* Cursor indicando que o botão está desativado */
+}
