@@ -6,19 +6,21 @@
     
 }
 
-/* Estilo do corpo da página */
+
 body {
-    font-family: Arial, sans-serif; /* Fonte padrão */
-    line-height: 1.6; /* Melhora a legibilidade do texto */
-    color: #333; /* Cor do texto */
-    background-color: #f4f4f4; /* Cor de fundo leve */
+    font-family: Arial, sans-serif; 
+    line-height: 1.6; 
+    color: #0a0a0a; /* Cor do texto */
+    background-color: #84B9BF; /* Cor de fundo leve */
     padding: 20px; /* Espaçamento ao redor do conteúdo */
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s, color 0.3s;
 }
 
-/* Estilo do título principal */
+
 h1 {
     text-align: center; /* Centraliza o título */
-    color: #222; /* Cor do texto do título */
+    color: #000000; /* Cor do texto do título */
     margin-bottom: 20px; /* Espaço abaixo do título */
 }
 
@@ -73,6 +75,16 @@ h3 {
     
 }
 
+
+.button-container {
+    margin: 20px;
+}
+
+.button-container button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
 
 p {
     margin-bottom: 30px; 

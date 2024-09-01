@@ -23,11 +23,11 @@ function changeFontSize(change) {
 // Função para definir o tema claro
 function setLightTheme() {
     document.body.style.backgroundColor = '#84B9BF';
-    document.body.style.color = '#025E73';
+    document.body.style.color = '#000';
 }
 
 // Função para definir o tema escuro
 function setDarkTheme() {
-    document.body.style.backgroundColor = '#333333';
-    document.body.style.color = '#ffffff';
+    document.body.style.backgroundColor = '#012E40';
+    document.body.style.color = '#fff';
 }
